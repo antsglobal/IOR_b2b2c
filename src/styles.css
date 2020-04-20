@@ -1,0 +1,99 @@
+html,body{height:100%;margin:0;padding:0;}
+.guest-body
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../src/assets/images/background/body_background.jpeg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.user-body{
+    background-color: #1d1527 !important;
+    background-position: center;
+    background-attachment: fixed !important;
+    position: fixed;
+    overflow: scroll;
+    scroll-behavior: auto;
+    scrollbar-color: green;
+    height: 100%;
+    width: 100%;
+}
+.app-header
+{
+    justify-content:space-between;
+    position: fixed;
+    top:0;left:0;right:0;z-index:2;
+    box-shadow:0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    background-color: whitesmoke !important;
+}
+.alphaNumero
+{
+    text-decoration:none;
+    color: transparent !important;
+    background-image: url("../src/assets/images/logo/full_logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    width: 15%;
+    height: 30px;
+}
+.box{position:relative;top:0;opacity:1;float:center;padding:60px 50px 40px 50px;width:100%;background:#fff;border-radius:10px;transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);z-index:5;max-width:330px;}
+.box.back{transform:scale(.95);-webkit-transform:scale(.95);-ms-transform:scale(.95);top:-20px;opacity:.8;z-index:-1;}
+.box:before{content:"";width:100%;height:30px;border-radius:10px;position:absolute;top:-10px;background:rgba(255, 255, 255, .6);left:0;transform:scale(.95);-webkit-transform:scale(.95);-ms-transform:scale(.95);z-index:-1;}
+
+
+mat-card-header{text-align:center;width:100%;display:block;font-weight:700; color: black;}
+mat-card-header mat-card-title
+{
+    font-size:30px;
+    margin:0; 
+    color: black;
+}
+.mat-card
+{
+    padding:40px 70px 50px; color: black;
+}
+.custom-form
+{
+    min-width:100%;
+    width:100%;
+}
+.mat-form-field-appearance-legacy .mat-form-field-infix
+{
+    padding:0.8375em 0;
+}
+.custom-full-width, .btn-block
+{
+    width:100%;
+}
+.wrapper{
+    margin-top: 80px;
+    width: 100%;
+    height: 100% !important;
+}
+.loginwrapper{
+    width: 100%;
+    height: 100% !important;
+    position: fixed;
+}
+.card-header-dark{
+    background-color: #3a2553 ;
+    color: whitesmoke ;
+    font-size: large ;
+}
+.card-header-dark > p{
+    height: 100% ;
+    vertical-align: middle;
+    margin: 0px;
+}
+.btncleartype{
+    background-color:#817F82;
+    color:white;
+}
+.btnsavetype{
+    background-color: #FD6526;
+    color:white;
+}
